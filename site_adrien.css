@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.emplois {
+    clear: both;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.upperCase {
+    text-transform: uppercase;
+}
+
+header {
+    width: 100%;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    font-family: sans-serif;
+}
+
+
+header .para {
+    float: right;
+    color: yellowgreen;
+    text-transform: uppercase;
+    padding-right: 180px;
+    padding-top: 32px;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+
+body {
+    background-image: url("back-ground_cv.jpg") ;
+    background-attachment:fixed;
+    font-family: sans-serif;
+}
+
+
+.blockJob{
+    width: 500px;
+    height: 440px;
+    background-color: peru;
+    float: right;
+    margin-right: 182px;
+    margin-top: 30px;
+}
+
+.textJob{
+    color: white;
+    text-align: center;
+    margin-top: 17px;
+    font-size: 1.6vw;
+}
+
+.formsJob {
+    margin: auto;
+    width: 470px;
+    height: 300px;
+    background-color: #ffffff;
+    margin-top: 17px;
+    color: black;
+    font-size: 1vw;
+}
+
+
+form {
+    margin: auto;
+    width: 410px;
+    padding-top: 22px;
+}
+
+.zoneHaut, .zoneCentre, .zoneBas{
+    display: flex;
+    justify-content: center;
+}
+
+.zoneBas{
+    padding-bottom: 18px;
+}
+
+input[type=text] {
+  width: 197px;
+  height: 30px;
+  margin: 9px 8px;
+  box-sizing: border-box;
+  border: 2px solid brown;
+  border-radius: 4px;
+}
+
+form .bouton {
+    width: 100%;
+    height: 48px;
+    background-color: red;
+    box-shadow: 10px 10px 5px brown;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+form .bouton:hover {
+    box-shadow: none;
+    cursor:pointer;
+}
+
+form .bouton h4 {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5vw;
+}
+
+
+
+#informations .precision div p {
+    text-align: center;
+    font-size: 1.5vw;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+
+
+#commentaires {
+    width: 100%;
+    background-color: #e1e1e1;
+}
+
+#commentaires .com {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+#commentaires .com div{
+    width: 470px;
+    margin: 0 45px;
+}
+
+#commentaires .com div p{
+    margin-top: 20px;
+    text-align: center;
+    color: #153c43;
+    font-size: 1.5vw;
+}
+
+
+#boutonJob {
+    width: 100%;
+    height: 112px;
+    background-color: #ffffff;
+}
+
+#boutonJob .bouton {
+    width: 240px;
+    height: 50px;
+    background-color: orangered;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+#boutonJob .bouton:hover {
+    box-shadow: none;
+    cursor:pointer;
+}
+
+#boutonJob .bouton a {
+    color: white;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding-top: 12px;
+    font-size: 1.5vw;
+}
+    
+footer {
+    width: 100%;
+    background-color: yellowgreen;
+    padding-bottom: 20px;
+}
+
+footer p{
+    color: white;
+    width: 1000px;
+    text-align: justify;
+    font-size: 1vw;
+    padding-top: 32px;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+
+header .para {
+    padding-right: 90px;
+}
+
+header .para .ligne{
+    float: right;
+}
+
+.blockJob{
+    margin-right: 90px;
+}
+
+.checkboxText {
+  font-size: 1.8vw;
+}
+
+
+form .bouton h4 {
+    font-size: 2.5vw;
+}
+
+#boutonJob .bouton a {
+    font-size: 2.5vw;
+}
+
+footer p{
+    width: 749px;
+    font-size: 2vw;
+}
+
+
+@media screen and (max-width: 812px) {
+
+
+header .para {
+    padding-right: 70px;
+    font-size: 1.7vw;
+}
+
+.checkboxText {
+  font-size: 2vw;
+}
+
+
+
+footer p{
+    width: 660px;
+    font-size: 2vw;
+}
+
+
+
+@media screen and (max-width: 414px) {
+
+
+
+header .para {
+    float: none;
+    display: block;
+    padding-top: 0;
+    margin-bottom: 30px;
+    padding: 0 25px;
+}
+
+header .para p{
+    width: 100%;
+ font-size: 3.1vw;
+ display: block;
+}
+
+
+
+.blockJob{
+    width: 300px;
+    height: 562px;
+    background-color: yellowgreen;
+    float: none;
+    display: block;
+    margin: 20px auto;
+}
+
+.textJob{
+    color: white;
+    text-align: center;
+    padding-top: 17px;
+    font-size: 3vw;
+}
+
+.formsJob {
+    margin: auto;
+    width: 280px;
+    height: 470px;
+    background-color: #ffffff;
+    margin-top: 17px;
+    color: black;
+    font-size: 1vw;
+}
+
+
+form {
+    margin: auto;
+    width: 200px;
+    padding-top: 22px;
+}
+
+.zoneHaut, .zoneCentre, .zoneBas{
+    display: block;
+}
+
+.zoneBas{
+    padding-bottom: 18px;
+}
+
+input[type=text] {
+  width: 215px;
+  margin: 9px auto;
+  font-size: 5vw;
+}
+
+.checkboxText {
+  font-size: 4vw;
+}
+
+form .bouton h4 {
+    font-size: 7vw;
+}
+
+
+
+#commentaires .com {
+    padding-top: 30px;
+    display: block;
+    justify-content: center;
+}
+
+#commentaires .com div{
+    width: 270px;
+    margin: 20px auto;
+}
+
+#commentaires .com div p{
+    font-size: 4vw;
+}
+
+#boutonJob .bouton a {
+    font-size: 6vw;
+}
+
+footer {
+    width: 100%;
+    background-color: #032388;
+}
+
+footer p{
+    width: 280px;
+    font-size: 3vw;
+}
